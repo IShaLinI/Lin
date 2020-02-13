@@ -1,0 +1,26 @@
+<identifier>:
+First Character is a letter, any other is a letter or a number
+
+<fletchling>:
+A variable : Serving, Fletches, boolean, etc.
+
+<arrowhead>:
+Either an identifier (for a variable) or a literal (1, "Hello World!", true)
+
+Class Declaration:
+`bow <identifier>`
+
+Method Declaration:
+`sling <identifier = name> requires ([<fletchling> <identifier = name>...]) [returns <fletchling>]`
+
+Variable Declaration:
+`var <fletchling> <identifier = name> [= <arrowhead>]`
+
+Method InvocationL
+`<identifier = name>([[<arrowhead>...]])`
+
+Print Statement:
+`loose <arrowhead>`
+
+Return Statement:
+`return <arrowhead>`

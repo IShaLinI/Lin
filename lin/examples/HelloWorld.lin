@@ -1,0 +1,3 @@
+bow HelloWorld
+    sling main requires()
+        loose "Hello"

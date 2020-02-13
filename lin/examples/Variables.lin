@@ -1,0 +1,10 @@
+bow Variables
+    sling main requires ()
+        serving s = getServing()
+        looseServing(s)
+
+    sling looseServing requires (serving s)
+        loose s
+
+    sling getServing requires () returns serving
+        return "Hello World!"
